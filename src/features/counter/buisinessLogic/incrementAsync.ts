@@ -1,5 +1,5 @@
 import { AppThunk } from "../../../app/store";
-import { counterMachine } from "../counterStateMachine";
+import { counterMachine } from "../stateMachine/counterStateMachine";
 import { incrementByAmount } from "../store/counterSlice";
 import { fetchCount } from "./counterAPI";
 

@@ -27,4 +27,4 @@ const machine = createMachine<{}, { type: EventType }, Typestate<State>>({
   },
 });
 
-export const counterMachine = interpret(machine).start();
+export const counterMachine = interpret(machine, { devTools: true }).start();
